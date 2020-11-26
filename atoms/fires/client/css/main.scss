@@ -1,0 +1,29 @@
+@import "fonts";
+@import "mq";
+@import "palette";
+// @import "enhancer";
+
+.interactive-atom {
+    margin: 0;
+    padding: 0;
+}
+
+
+.burned-img{
+	opacity:0;
+	transition: opacity 0.5s cubic-bezier(.73,.08,.39,.93);
+}
+
+.display{
+	opacity:1 !important;
+	transition: opacity 0.5s cubic-bezier(.73,.08,.39,.93) !important;
+}
+
+.map-path{
+	fill: none;
+	stroke: #bababa;
+	stroke-width: .1px;
+}
+
+
+    
