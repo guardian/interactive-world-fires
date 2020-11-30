@@ -12,6 +12,7 @@
 .burned-img{
 	opacity:0;
 	transition: opacity 0.5s cubic-bezier(.73,.08,.39,.93);
+	mix-blend-mode:multiply;
 }
 
 .display{
@@ -21,8 +22,12 @@
 
 .map-path{
 	fill: none;
-	stroke: #bababa;
+	stroke: #333333;
 	stroke-width: .1px;
+}
+
+.hillshade{
+	opacity: .3;
 }
 
 
